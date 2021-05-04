@@ -12,4 +12,4 @@ microservice:
   scoring-service:
     endpoints:
       get-scoring:
-        uri: http://scoring-service/bo/scoring
+        uri: http://SCORING-SERVICE/bo/scoring
