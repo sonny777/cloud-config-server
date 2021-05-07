@@ -10,6 +10,8 @@ eureka:
     
 microservice:
   scoring-service:
-    endpoints:
-      get-scoring:
-        uri: http://SCORING-SERVICE/bo/scoring
+    get-scoring:
+      uri: http://scoring-service/bo/scoring
+  auth-service:
+    validate-token:
+      uri: http://auth-service/auth
