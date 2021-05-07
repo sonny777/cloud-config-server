@@ -7,7 +7,9 @@ eureka:
   instance:
     hostname: localhost
     
-    
+legacy:
+  validate-token:
+    uri: http://localhost:9999/auth/validateToken
 microservice:
   scoring-service:
     get-scoring:
