@@ -16,4 +16,4 @@ microservice:
       uri: http://scoring-service/bo/scoring
   auth-service:
     validate-token:
-      uri: http://auth-service/auth
+      uri: http://auth-service/auth/validateToken
