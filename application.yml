@@ -10,6 +10,8 @@ eureka:
 legacy:
   validate-token:
     uri: http://localhost:9999/auth/validateToken
+  get-status-by-customer-borrower-id:
+    uri: http://localhost:9999/bo/v2/loans/customer/status/
 microservice:
   scoring-service:
     get-scoring:
