@@ -15,7 +15,7 @@ legacy:
 microservice:
   scoring-service:
     get-scoring:
-      uri: http://scoring-service/bo/scoring
+      uri: http://SCORING-SERVICE/bo/scoring
   auth-service:
     validate-token:
       uri: http://auth-service/auth/validate-token
